@@ -1,0 +1,34 @@
+{
+  "name": "grpcx-xray",
+  "version": "0.1.0",
+  "description": "AWS xray middleware for grpcx.",
+  "main": "src/index.js",
+  "devDependencies": {
+    "@grpc/grpc-js": "^1.1.5",
+    "@grpc/proto-loader": "^0.5.5",
+    "@silverlabs/grpcx": "^0.1.0",
+    "eslint": "^7.2.0",
+    "eslint-config-airbnb-base": "^14.2.0",
+    "eslint-plugin-import": "^2.22.0",
+    "mocha": "^8.1.1",
+    "nyc": "^15.1.0"
+  },
+  "scripts": {
+    "test": "mocha test/**/*test.js",
+    "coverage": "nyc npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Silverlabs/grpcx-xray.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Silverlabs/grpcx-xray/issues"
+  },
+  "homepage": "https://github.com/Silverlabs/grpcx-xray#readme",
+  "dependencies": {
+    "aws-xray-sdk": "^3.1.0"
+  }
+}
