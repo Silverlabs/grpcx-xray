@@ -1,5 +1,5 @@
 {
-  "name": "grpcx-xray",
+  "name": "@silverlabs/grpcx-xray",
   "version": "0.1.0",
   "description": "AWS xray middleware for grpcx.",
   "main": "src/index.js",
